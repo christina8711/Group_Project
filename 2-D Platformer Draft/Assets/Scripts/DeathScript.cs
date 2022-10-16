@@ -6,10 +6,11 @@ public class DeathScript : MonoBehaviour
 {
     public GameObject startPoint;
     public GameObject Player;
+    public HealthSystem playerHealth;
     // Start is called before the first frame update
-    void Start()
+    void start()
     {
-        
+    
     }
 
     // Update is called once per frame
@@ -22,6 +23,7 @@ public class DeathScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Player.transform.position = startPoint.transform.position;
+            playerHealth.TakeDamage(1);
         }
     }
 }

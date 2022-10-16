@@ -12,6 +12,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
+
+    public float fallHeight;
+    public HealthSystem playerHealth;
+    public GameObject startPoint;
+    public GameObject Player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
             Debug.Log("jump");
+            fallHeight = this.transform.position.y;
         }
         //Sets Jumping Parameters
         anim.SetBool("Grounded", isJumping == true);
@@ -52,7 +59,16 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+
+            //Checks For Fall Damage
+            if (fallHeight <= 0 && this.transform.position.y < -10f)
+            {
+                Debug.Log("Took Fall Damage");
+                Player.transform.position = startPoint.transform.position;
+                playerHealth.TakeDamage(1);
+            }
         }
+
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -61,6 +77,6 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
         }
     }
-    
+
     
 }
