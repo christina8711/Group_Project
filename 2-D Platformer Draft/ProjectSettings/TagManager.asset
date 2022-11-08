@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Treasure
   layers:
   - Default
   - TransparentFX
@@ -42,7 +43,7 @@ TagManager:
   - name: Background
     uniqueID: 1603822143
     locked: 0
-  - name: MIdground
+  - name: Midground
     uniqueID: 3495929673
     locked: 0
   - name: Foreground
