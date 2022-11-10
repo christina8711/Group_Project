@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04395eba567b41909cade9e0df1971e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinSound: {fileID: 8300000, guid: 50a68ce6ecdcb1b4194c88c07d0457b8, type: 3}
 --- !u!58 &3031861292304302238
 CircleCollider2D:
   m_ObjectHideFlags: 0
