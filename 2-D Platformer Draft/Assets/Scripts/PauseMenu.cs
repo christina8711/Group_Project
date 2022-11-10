@@ -4,40 +4,27 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
-    // Start is called before the first frame update
-    void Start()
+    public PlayerMovement Jumping;
+    bool isPaused = false;
+    private void Start()
     {
-        Cursor.visible = false; 
-    }
 
-    // Update is called once per frame
-    void Update()
+    }
+    public void pauseGame()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (isPaused)
         {
-            if(!pauseMenu.activeSelf)
-            {
-                Time.timeScale = 0f;
-                pauseMenu.SetActive(true);
-                Cursor.visible = true;
-            }
-            else
-            {
-                Time.timeScale = 1f;
-                pauseMenu.SetActive(false);
-                Cursor.visible = false;
-            }
+            Time.timeScale = 1;
+            isPaused = false;
+            Jumping.enabled = true;
         }
-    }
-    public void Quit()
-    {
-        Application.Quit();
-    }
-    public void Resume()
-    {
-        Time.timeScale = 1f;
-        pauseMenu.SetActive(false);
-        Cursor.visible = false;
+        else
+        {
+            Time.timeScale = 0;
+            isPaused = true;
+            Jumping.enabled = false;
+        }
+        
     }
 }
+

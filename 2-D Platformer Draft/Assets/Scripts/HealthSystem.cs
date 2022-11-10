@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
 {
+    public GameObject GameOverDisplay;
     public GameObject[] hearts; //[0] [1] [2]
     private int life; //3
     private bool dead;
@@ -38,9 +39,9 @@ public class HealthSystem : MonoBehaviour
             if (life < 1)
             {
                 dead = true;
+                GameOverDisplay.SetActive(true);
             }
         }
     }
-
 
 }
