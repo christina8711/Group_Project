@@ -90,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Heart1
@@ -112,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -161, y: -1320}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 165, y: 1324}
   - name: Heart2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -133,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -422, y: -912}
+    uvTransform: {x: 4, y: 424}
+    spritePosition: {x: 426, y: 1336}
   - name: Heart3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -154,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -717, y: -690}
+    uvTransform: {x: 4, y: 634}
+    spritePosition: {x: 721, y: 1324}
   - name: Heart4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -175,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 33, y: -685}
+    uvTransform: {x: 253, y: 390}
+    spritePosition: {x: 220, y: 1075}
   - name: Heart5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -196,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -220, y: -875}
+    uvTransform: {x: 253, y: 197}
+    spritePosition: {x: 473, y: 1072}
   - name: Heart6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -217,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -469, y: -1062}
+    uvTransform: {x: 253, y: 4}
+    spritePosition: {x: 722, y: 1066}
   - name: Heart7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -238,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -155, y: -593}
+    uvTransform: {x: 4, y: 214}
+    spritePosition: {x: 159, y: 807}
   characterData:
     bones: []
     parts: []
@@ -343,7 +351,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: a04c66cf0f0f4a6418dedfdd4ed0b8ee
     layerID: 1
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
