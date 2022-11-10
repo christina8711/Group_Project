@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09694de48dbeb4402aed393bec67c8cd
+guid: 058cd1e5a7dcf4e0caefa54c839e7cc0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -99,11 +99,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 220
-      y: 224
+      x: 218
+      y: 460
       width: 208
       height: 176
-    spriteID: bf82cfc13b0e24b97906f6d7dbe254b7
+    spriteID: b545591467e7443f7bb7bcebfcda2bdf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,19 +112,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 95, y: -1025}
-  - name: Treasure 2x
+    uvTransform: {x: 93, y: -789}
+  - name: Treasure 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 220
-      y: 4
-      width: 210
-      height: 212
-    spriteID: 1898c876f248d40f5bed1deaafaec887
+      x: 218
+      y: 239
+      width: 208
+      height: 213
+    spriteID: 045dccb77c5ff48dcaa7d4b3524e7826
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -133,7 +133,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -213, y: -1245}
+    uvTransform: {x: -215, y: -1010}
   - name: Treasure 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -142,10 +142,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 734
-      width: 208
+      y: 497
+      width: 206
       height: 218
-    spriteID: f29f85f64f8904443a77c3a8ad6e0ddc
+    spriteID: 8efa0947ec73e48d48738904f517695d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -154,7 +154,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -743, y: -515}
+    uvTransform: {x: -743, y: -752}
   - name: Treasure 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -162,11 +162,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 498
-      width: 208
-      height: 228
-    spriteID: e95eb14301be14001a70028c3e5ca338
+      x: 218
+      y: 4
+      width: 207
+      height: 227
+    spriteID: 46dc98fee7fb54dcab44755eb0dc00b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -175,7 +175,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -121, y: -427}
+    uvTransform: {x: 93, y: -922}
   - name: Treasure 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -184,10 +184,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 258
-      width: 208
+      y: 257
+      width: 206
       height: 232
-    spriteID: 3f2b2aa939b6240e497937e695a3af67
+    spriteID: 7da50d7ac31ae4e9197b0fa96add4a64
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -196,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -431, y: -667}
+    uvTransform: {x: -431, y: -668}
   - name: Treasure 6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -206,9 +206,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 208
-      height: 246
-    spriteID: b2cceee13d7984a0eaf958c033fbc0ec
+      width: 206
+      height: 245
+    spriteID: 36a01d703d3f7489f8d52bb5a4fc4943
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -217,7 +217,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -743, y: -921}
+    uvTransform: {x: -743, y: -922}
   characterData:
     bones: []
     parts: []
@@ -252,19 +252,19 @@ ScriptedImporter:
     spriteName: Treasure 1
     isGroup: 0
     parentIndex: -1
-    spriteID: bf82cfc13b0e24b97906f6d7dbe254b7
-    layerID: 5
-    mosaicPosition: {x: 220, y: 224}
+    spriteID: b545591467e7443f7bb7bcebfcda2bdf
+    layerID: 22
+    mosaicPosition: {x: 218, y: 460}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Treasure 2x
-    spriteName: Treasure 2x
+  - name: Treasure 2
+    spriteName: Treasure 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 1898c876f248d40f5bed1deaafaec887
-    layerID: 19
-    mosaicPosition: {x: 220, y: 4}
+    spriteID: 045dccb77c5ff48dcaa7d4b3524e7826
+    layerID: 48
+    mosaicPosition: {x: 218, y: 239}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -272,9 +272,9 @@ ScriptedImporter:
     spriteName: Treasure 3
     isGroup: 0
     parentIndex: -1
-    spriteID: f29f85f64f8904443a77c3a8ad6e0ddc
-    layerID: 16
-    mosaicPosition: {x: 4, y: 734}
+    spriteID: 8efa0947ec73e48d48738904f517695d
+    layerID: 33
+    mosaicPosition: {x: 4, y: 497}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -282,9 +282,9 @@ ScriptedImporter:
     spriteName: Treasure 4
     isGroup: 0
     parentIndex: -1
-    spriteID: e95eb14301be14001a70028c3e5ca338
-    layerID: 14
-    mosaicPosition: {x: 4, y: 498}
+    spriteID: 46dc98fee7fb54dcab44755eb0dc00b3
+    layerID: 36
+    mosaicPosition: {x: 218, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -292,9 +292,9 @@ ScriptedImporter:
     spriteName: Treasure 5
     isGroup: 0
     parentIndex: -1
-    spriteID: 3f2b2aa939b6240e497937e695a3af67
-    layerID: 13
-    mosaicPosition: {x: 4, y: 258}
+    spriteID: 7da50d7ac31ae4e9197b0fa96add4a64
+    layerID: 40
+    mosaicPosition: {x: 4, y: 257}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -302,8 +302,8 @@ ScriptedImporter:
     spriteName: Treasure 6
     isGroup: 0
     parentIndex: -1
-    spriteID: b2cceee13d7984a0eaf958c033fbc0ec
-    layerID: 12
+    spriteID: 36a01d703d3f7489f8d52bb5a4fc4943
+    layerID: 43
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
