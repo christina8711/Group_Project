@@ -90,7 +90,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Mascot
@@ -113,8 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 416}
-    spritePosition: {x: 443, y: 0}
+    uvTransform: {x: -439, y: 416}
   - name: KNIGHT RUN
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -135,8 +133,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 3, y: 421}
+    uvTransform: {x: 1, y: -417}
   characterData:
     bones: []
     parts: []

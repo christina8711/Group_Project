@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private bool move;
 
     public float jump;
-    public bool isJumping;
+    public bool notGrounded;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -41,24 +41,42 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3((float)-0.2462711, (float)0.2462711,(float) 0.2462711);
         }
         // Sets running parameters
-        anim.SetBool("Run", move != 0);
+        if (move != 0)
+        {
+            anim.SetBool("Run", true);
+            anim.SetTrigger("Run");
+        }
+        if (move == 0)
+        {
+            anim.SetBool("Run", false);
+            anim.ResetTrigger("Run");
+        }
 
-
-        if (Input.GetButtonDown("Jump") && isJumping == false)
+        if (Input.GetButtonDown("Jump") && notGrounded == false)
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
             Debug.Log("jump");
             fallHeight = this.transform.position.y;
         }
         //Sets Jumping Parameters
-        anim.SetBool("Grounded", isJumping == true);
-        anim.SetTrigger("Jump");
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (Input.GetButtonDown("Jump"))
         {
-            isJumping = false;
+            anim.SetBool("Grounded", true);
+                anim.SetTrigger("Jump");
+        }
+        if (Input.GetButtonUp("Jump"))
+        {
+            anim.SetBool("Grounded", false);
+            anim.ResetTrigger("Jump");
+        }
+
+
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            notGrounded = false;
 
             //Checks For Fall Damage
             if (fallHeight <= 0 && this.transform.position.y < -10f)
@@ -68,13 +86,25 @@ public class PlayerMovement : MonoBehaviour
                 playerHealth.TakeDamage(1);
             }
         }
+        //when player jumps on moving platform
+        if (other.gameObject.CompareTag("Mground"))
+        {
+            this.transform.parent = other.transform;
+            notGrounded = false;
+        }
 
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D other)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground"))
         {
-            isJumping = true;
+            notGrounded = true;
+        }
+        //when player jumps off moving platform
+        if (other.gameObject.CompareTag("Mground"))
+        {
+            this.transform.parent = null;
+            notGrounded = true;
         }
     }
 

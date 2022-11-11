@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Treasure
+  - Mground
   layers:
   - Default
   - TransparentFX
@@ -51,4 +52,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Very Front
+    uniqueID: 1982520869
     locked: 0

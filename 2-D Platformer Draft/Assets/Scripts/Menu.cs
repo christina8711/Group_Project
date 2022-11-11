@@ -15,6 +15,7 @@ public class Menu : MonoBehaviour
     {
         audioPlayer.Play();
         SceneManager.LoadScene("Level1");
+        OptionsDisplay.SetActive(false);
         Coins.ResetEffect();
         Time.timeScale = 1;
         Jumping.enabled = true;

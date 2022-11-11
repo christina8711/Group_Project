@@ -90,7 +90,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Treasure 1
@@ -113,8 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: 460}
-    spritePosition: {x: 125, y: 1249}
+    uvTransform: {x: 93, y: -789}
   - name: Treasure 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -135,8 +133,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: 239}
-    spritePosition: {x: 433, y: 1249}
+    uvTransform: {x: -215, y: -1010}
   - name: Treasure 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -157,8 +154,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 497}
-    spritePosition: {x: 747, y: 1249}
+    uvTransform: {x: -743, y: -752}
   - name: Treasure 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -179,8 +175,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: 4}
-    spritePosition: {x: 125, y: 926}
+    uvTransform: {x: 93, y: -922}
   - name: Treasure 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -201,8 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 257}
-    spritePosition: {x: 435, y: 925}
+    uvTransform: {x: -431, y: -668}
   - name: Treasure 6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -223,8 +217,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 747, y: 926}
+    uvTransform: {x: -743, y: -922}
   characterData:
     bones: []
     parts: []
