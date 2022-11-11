@@ -11,6 +11,7 @@ public class HealthSystem : MonoBehaviour
     private int life; //3
     private bool dead;
     public GameObject Player;
+    public AudioSource audioPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,7 @@ public class HealthSystem : MonoBehaviour
         if (life >= 1)
         {
             life -= amount; // TotalHearts - 1 =
+            audioPlayer.Play();
             Destroy(hearts[life].gameObject); //[0]
             if (life < 1)
             {
@@ -43,5 +45,7 @@ public class HealthSystem : MonoBehaviour
             }
         }
     }
+
+
 
 }

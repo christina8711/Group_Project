@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OptionsButton : MonoBehaviour
 {
+    public AudioSource audioPlayer;
     public GameObject OptionsDisplay;
     public PlayerMovement Jumping;
     bool isPaused = false;
@@ -13,6 +14,7 @@ public class OptionsButton : MonoBehaviour
     }
     public void pauseGame()
     {
+        audioPlayer.Play();
         if (isPaused)
         {
             Time.timeScale = 1;

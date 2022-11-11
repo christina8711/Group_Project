@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public PlayerMovement Jumping;
+    public AudioSource audioPlayer;
     bool isPaused = false;
     private void Start()
     {
@@ -12,8 +13,10 @@ public class PauseMenu : MonoBehaviour
     }
     public void pauseGame()
     {
+        audioPlayer.Play();
         if (isPaused)
         {
+            
             Time.timeScale = 1;
             isPaused = false;
             Jumping.enabled = true;
