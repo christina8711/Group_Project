@@ -9,6 +9,7 @@ public class LevelCompleted : MonoBehaviour
     public GameObject WinDisplay;
     private Animator anim;
     public GameObject Player;
+    public AudioSource audioPlayer;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -21,6 +22,7 @@ public class LevelCompleted : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
+            audioPlayer.Play();
             StartCoroutine(WinMenu());
         }
     }
