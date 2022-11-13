@@ -90,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Coin1
@@ -112,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -107, y: -859}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 111, y: 863}
   - name: Coin2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -133,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -171, y: -866}
+    uvTransform: {x: 203, y: 4}
+    spritePosition: {x: 374, y: 870}
   - name: Coin3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -154,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -267, y: -852}
+    uvTransform: {x: 379, y: 4}
+    spritePosition: {x: 646, y: 856}
   - name: Coin4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -175,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -905, y: -661}
+    uvTransform: {x: 4, y: 203}
+    spritePosition: {x: 909, y: 864}
   characterData:
     bones: []
     parts: []
