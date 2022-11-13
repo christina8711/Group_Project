@@ -20,6 +20,15 @@ public class Menu : MonoBehaviour
         Time.timeScale = 1;
         Jumping.enabled = true;
     }
+    public void RestartButton2()
+    {
+        audioPlayer.Play();
+        SceneManager.LoadScene("Level2");
+        OptionsDisplay.SetActive(false);
+        Coins.ResetEffect();
+        Time.timeScale = 1;
+        Jumping.enabled = true;
+    }
     public void NextLevelButton()
     {
         audioPlayer.Play();
