@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   //Lets Player Run
         float move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed * move, rb.velocity.y);
         //Flip player moving left-right
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3((float)-0.2462711, (float)0.2462711,(float) 0.2462711);
         }
-        // Sets running parameters
+        // Sets running parameters for animation
         if (move != 0)
         {
             anim.SetBool("Run", true);
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("Run", false);
             anim.ResetTrigger("Run");
         }
-
+        //Lets Player Jump
         if (Input.GetButtonDown("Jump") && notGrounded == false)
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
@@ -72,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
+    //Prevents Double Jumping when Player is not on ground
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
@@ -86,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
                 playerHealth.TakeDamage(1);
             }
         }
-        //when player jumps on moving platform
+        //when player is on a moving platform the player will become a child of the platform only if the player is on it
         if (other.gameObject.CompareTag("Mground"))
         {
             this.transform.parent = other.transform;

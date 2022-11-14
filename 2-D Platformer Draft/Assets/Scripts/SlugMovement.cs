@@ -9,9 +9,10 @@ public class SlugMovement : MonoBehaviour
     private bool movingLeft;
     private float leftEdge;
     private float rightEdge;
-    // Start is called before the first frame update
+   
     void Awake()
     {
+        //Awake Allows variables to be initialized before application starts
         leftEdge = transform.position.x - movementDistance;
         rightEdge = transform.position.x + movementDistance;
     }
@@ -19,6 +20,7 @@ public class SlugMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Allows game object to move back and fourth at a set distance and speed
         if (movingLeft)
         {
             if(transform.position.x > leftEdge)

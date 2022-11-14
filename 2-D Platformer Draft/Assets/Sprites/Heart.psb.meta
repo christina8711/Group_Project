@@ -90,7 +90,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Heart1
@@ -113,8 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 165, y: 1324}
+    uvTransform: {x: -161, y: -1320}
   - name: Heart2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -135,8 +133,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 424}
-    spritePosition: {x: 426, y: 1336}
+    uvTransform: {x: -422, y: -912}
   - name: Heart3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -157,8 +154,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 634}
-    spritePosition: {x: 721, y: 1324}
+    uvTransform: {x: -717, y: -690}
   - name: Heart4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -179,8 +175,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 253, y: 390}
-    spritePosition: {x: 220, y: 1075}
+    uvTransform: {x: 33, y: -685}
   - name: Heart5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -201,8 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 253, y: 197}
-    spritePosition: {x: 473, y: 1072}
+    uvTransform: {x: -220, y: -875}
   - name: Heart6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -223,8 +217,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 253, y: 4}
-    spritePosition: {x: 722, y: 1066}
+    uvTransform: {x: -469, y: -1062}
   - name: Heart7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -245,8 +238,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 214}
-    spritePosition: {x: 159, y: 807}
+    uvTransform: {x: -155, y: -593}
   characterData:
     bones: []
     parts: []

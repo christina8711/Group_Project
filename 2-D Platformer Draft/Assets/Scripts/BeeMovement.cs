@@ -7,13 +7,13 @@ public class BeeMovement : MonoBehaviour
     public float amp;
     public float freq;
     Vector3 iniPos;
-    // Start is called before the first frame update
+    // Bee's Start Position
     void Start()
     {
         iniPos = transform.position;
     }
 
-    // Update is called once per frame
+    // While Game is playing Bee Moves up and down on Y-Axix
     void Update()
     {
         transform.position = new Vector3(iniPos.x, Mathf.Sin(Time.time * freq) * amp * iniPos.y, 0);

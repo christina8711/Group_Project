@@ -13,13 +13,13 @@ public class HealthSystem : MonoBehaviour
     public GameObject Player;
     public AudioSource audioPlayer;
 
-    // Start is called before the first frame update
+    // At Start Heart length is 3 Hearts
     void Start()
     {
         life = hearts.Length;
     }
 
-    // Update is called once per frame
+    // Updates if all hearts are destroyed
     void Update()
     {
         if (dead == true)
@@ -30,7 +30,7 @@ public class HealthSystem : MonoBehaviour
 
         }
     }
-
+    // If player takes damage Heart will be destroyed
     public void TakeDamage(int amount)
     {
         if (life >= 1)
