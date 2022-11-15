@@ -17,13 +17,16 @@ public class PlayerMovement : MonoBehaviour
     public HealthSystem playerHealth;
     public GameObject startPoint;
     public GameObject Player;
+    private Collider2D _Collider;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Grabs references for rigbody and animator from object
+        //Grabs references for rigbody, animator, and Collider from object
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        _Collider = GetComponent<Collider2D>();
+
     }
 
     // Update is called once per frame
@@ -93,7 +96,18 @@ public class PlayerMovement : MonoBehaviour
             this.transform.parent = other.transform;
             notGrounded = false;
         }
+        //Working on fixing double jump on moving platforms
+        if (this.transform.parent == other.transform && Input.GetAxisRaw("Vertical") < 0)
+        {
+            _Collider.enabled = true;
+            StartCoroutine(EnableCollider());
+        }
 
+    }
+    private IEnumerator EnableCollider()
+    {
+        yield return new WaitForSeconds(.5f);
+        _Collider.enabled = false;
     }
     private void OnCollisionExit2D(Collision2D other)
     {
@@ -108,6 +122,4 @@ public class PlayerMovement : MonoBehaviour
             notGrounded = true;
         }
     }
-
-    
 }
