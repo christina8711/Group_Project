@@ -1,4 +1,4 @@
-# Group_Project
+# Knight-Run
 Knight Run game
 
 A 2-D Platform Game
