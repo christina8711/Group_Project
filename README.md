@@ -16,7 +16,6 @@ _Frontend:_
 
 - Unity game engine
 - Unity Assets
-- Adobe Photoshop
 - C#
 
 _Backend:_
@@ -26,6 +25,7 @@ _Backend:_
 _Other tools:_
 
 - Visual Studio Code
+- Adobe Photoshop
 
 ## Challenges we ran into
 One of the biggest challenges we faced was creating moving platforms that kept the player in place. Additionally, posting the final game on Github and fixing errors in our code proved to be difficult tasks. However, through teamwork and perseverance, we were able to overcome these obstacles and create a fully functional game.
