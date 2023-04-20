@@ -5,7 +5,8 @@ Demo Link- https://youtu.be/5Y1KnxaqJ54
 ## Inspiration
 Knight Run was inspired by classic 2D platformers like Mario Run, Subway Surfers, and Geometry Dash. We wanted to create a game that would be enjoyable for both casual and experienced gamers, with challenging levels that keep players engaged.
 ## What it does
-In Knight Run, players take control of a brave knight who must run, jump, and dodge through levels filled with enemies, obstacles, and treasures. With three lives to spare, players must navigate through increasingly difficult levels that feature both static and moving platforms. The game also includes a variety of obstacles and collectibles, such as enemies and coins.
+In Knight Run, players take control of a brave knight who must run, jump, and dodge through levels filled with enemies, obstacles, and treasures. With three lives to spare, players must navigate through increasingly difficult levels that feature both static and moving platforms.
+
 ## How we built it
 
 **We decided to utilize the following languages and technologies:**
