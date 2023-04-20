@@ -2,7 +2,7 @@
 Knight Run game
 Demo Link- https://youtu.be/5Y1KnxaqJ54
 
- https://christina8711.github.io/Knight-Run/
+Try Out Our Game!(Computer based Only)- https://christina8711.github.io/Knight-Run/
 ## Inspiration
 Knight Run was inspired by classic 2D platformers like Mario Run, Subway Surfers, and Geometry Dash. We wanted to create a game that would be enjoyable for both casual and experienced gamers, with challenging levels that keep players engaged.
 ## What it does
